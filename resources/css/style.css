@@ -17,7 +17,7 @@ html {
 	margin: 0 auto;
 }
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), url(img/logoarteunite2.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), url(img/grass.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
