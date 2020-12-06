@@ -1,3 +1,7 @@
+/*------------------*/
+/*BASIC SET UP*/
+/*------------------*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,25 +11,92 @@
 html {
 	background-color: #fff;
 	color: #2a2a2a;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 19px;
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
 }
+
+/*------------------*/
+/*REUSABLE COMPONENTS*/
+/*------------------*/
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
 }
+sections {
+}
+p {
+	text-align: center;
+	font-size: 95%;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+ion-icon {
+	font-size: 200%;
+	padding: 10px 10px;
+}
+.box {
+	padding: 1%;
+}
+/*------------------*/
+/*HEADINGS*/
+/*------------------*/
+
+h1 {
+	color: rgba(255, 255, 255, 0.83);
+	font-size: 170%;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	word-spacing: 2px;
+}
+h3 {
+	font-size: 90%;
+	text-align: center;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+
+
+/*------------------*/
+/*BUTTONS*/
+/*------------------*/
+
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 10px 40px;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	border-radius: 200px;
+	color: rgb(185, 50, 50);
+	background-color: rgba(245, 245, 245, 0.78);
+	transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover,
+.btn:active {
+	background-color: rgba(178, 123, 110, 0.78);
+	color: rgba(255, 255, 255, 0.83);
+}
+
+/*------------------*/
+/*HEADER*/
+/*------------------*/
+
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), url(img/grass.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.08)), url(img/grass.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 	
 }
-h1 {
-	color: rgba(255, 255, 255, 0.83);
-}
+
 .main-quote-box {
 	position: absolute;
 	width: 1140;
@@ -33,15 +104,37 @@ h1 {
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-q {
-	color:#fff;
-	font-size: 150%;
-	font-weight: 200;
-	letter-spacing: 1px;
-	word-spacing: 5px;
+.logo {
+	height: 80px;
+	width: auto;
+	float:left;
+	margin: 20px 10px;
+	border-radius: 58%;
 }
-.quote-author {
+.main-nav {
+	float: right;
+	list-style: none;
+}
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding: 4px 0;
 	color: #fff;
-	letter-spacing: 1px;
-	font-size: 110%;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.3s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid rgba(245, 245, 245, 0.78);
+}
+
+.section-features {
+	margin-top: 70px;
 }
