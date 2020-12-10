@@ -25,8 +25,7 @@ html {
 	max-width: 1140px;
 	margin: 0 auto;
 }
-sections {
-}
+
 p {
 	text-align: center;
 	font-size: 95%;
@@ -148,6 +147,10 @@ header {
 
 .section-features {
 	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.section-features .line {
+	margin-bottom: 20px
 }
 
 .author {
@@ -164,5 +167,43 @@ header {
 	width: 200px;
 	margin: 0 auto;
 }
+.quote-h {
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	letter-spacing: 0.5px;
+}
 
+/*------------------*/
+/*GALLERY*/
+/*------------------*/
 
+.section-gallery {
+	
+}
+.gallery-showcase {
+	list-style: none;
+	width: 100%;
+}
+.gallery-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+.gallery-photo {
+	width: 100%;
+	overflow: hidden;
+	background-color: #000;
+}
+.gallery-photo img {
+	opacity: 0.7;
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.gallery-photo img:hover {
+	opacity: 1;
+	transform: scale(1.04);
+}
