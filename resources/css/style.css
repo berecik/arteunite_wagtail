@@ -81,14 +81,14 @@ q {
 	text-decoration: none;
 	font-weight: 600;
 	border-radius: 200px;
-	color: rgb(185, 50, 50);
+	color: rgb(134, 8, 9);
 	background-color: rgba(245, 245, 245, 0.78);
 	transition: background-color 0.3s, color 0.3s;
 }
 .btn:hover,
 .btn:active {
-	background-color: rgba(178, 123, 110, 0.78);
-	color: rgba(255, 255, 255, 0.83);
+	background-color: rgba(202, 185, 139, 0.74);
+	color: rgba(255, 255, 255, 0.74);
 }
 
 /*------------------*/
@@ -100,6 +100,7 @@ header {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	background-attachment: fixed;
 	
 }
 
@@ -111,7 +112,7 @@ header {
 	transform: translate(-50%,-50%);
 }
 .logo {
-	height: 80px;
+	height: 150px;
 	width: auto;
 	float:left;
 	margin: 20px 10px;
@@ -163,7 +164,7 @@ header {
 .line {
 	display: block;
 	height: 2px;
-	background-color: rgba(178, 123, 110, 0.78);
+	background-color: rgb(134, 8, 9);
 	width: 200px;
 	margin: 0 auto;
 }
@@ -213,7 +214,7 @@ header {
 
 footer {
 
-	background-color: #333;
+	background-color: rgba(11, 4, 4, 0.78);
 }
 .footer-nav {
 	list-style: none;
@@ -234,8 +235,8 @@ footer {
 .social-links li a:visited {
 	text-decoration: none;
 	border: 0;
-	color: rgba(178, 123, 110, 0.78);
+	color: rgba(202, 185, 139);
 }
 .copyrights {
-	color: rgba(178, 123, 110, 0.78);
+	color: rgba(202, 185, 139);
 }
