@@ -112,11 +112,13 @@ header {
 	transform: translate(-50%,-50%);
 }
 .logo {
-	height: 150px;
+	height: 100px;
 	width: auto;
 	float:left;
 	margin: 20px 10px;
 	border-radius: 58%;
+	padding-left: 20px;
+	padding-top: 10px;
 }
 .main-nav {
 	float: right;
