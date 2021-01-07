@@ -226,7 +226,7 @@ header {
 }
 .wz-box:first-child {
 	text-align: right;
-	padding-right: 3%;
+	padding-right: 4%;
 }
 .wz-box:last-child {
 	padding-left: 35;
@@ -237,7 +237,7 @@ header {
 }
 .wz-header {
 	text-align: center;
-	margin-top: 3%;
+	margin-top: 4%;
 }
 /*------------------*/
 /*FOOTER*/
