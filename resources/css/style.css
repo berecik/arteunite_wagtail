@@ -226,19 +226,67 @@ header {
 }
 .wz-box:first-child {
 	text-align: right;
-	padding-right: 4%;
-}
-.wz-box:last-child {
+	
 	padding-left: 35;
 	margin-top: 15%;
 }
+.wz-box:last-child {
+	padding-right: 4%;
+}
 .ind {
-	width: 90%;
+	width: 100%;
 }
 .wz-header {
 	text-align: center;
-	margin-top: 4%;
 }
+.wz-title {
+	padding-top: 95%;
+}
+
+/*------------------*/
+/*STODOLA*/
+/*------------------*/
+
+.stodola {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/stodola.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.stodola-text {
+	text-align: center;
+	margin-top: 20%;
+	padding-left: 10%;
+}
+
+/*------------------*/
+/*WARSZTATY*/
+/*------------------*/
+
+.workshop-header {
+	text-align: center;
+	margin-top: 3%;
+}
+.workshop-box {
+	margin-top: 30px;
+}
+.workshop-box:first-child {
+	padding-right: 4%;
+	text-align: left;
+}
+.workshop-box:last-child {
+	text-align: right;
+	padding-left: 35;
+	margin-top: 15%;
+}
+.humantree {
+	width: 100%;
+	height: auto;
+}
+
+
 /*------------------*/
 /*FOOTER*/
 /*------------------*/
