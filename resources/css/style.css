@@ -240,7 +240,7 @@ header {
 	text-align: center;
 }
 .wz-title {
-	padding-top: 95%;
+	padding-top: 43%;
 }
 
 /*------------------*/
@@ -257,7 +257,8 @@ header {
 
 .stodola-text {
 	text-align: center;
-	margin-top: 20%;
+	font-size: 130%;
+	margin-top: 25%;
 	padding-left: 10%;
 }
 
