@@ -228,13 +228,14 @@ header {
 	text-align: right;
 	
 	padding-left: 35;
-	margin-top: 15%;
+	margin-top: 7%;
 }
 .wz-box:last-child {
 	padding-right: 4%;
 }
 .ind {
-	width: 100%;
+	width: 70%;
+	margin-top: 7%;
 }
 .wz-header {
 	text-align: center;
@@ -251,7 +252,7 @@ header {
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/stodola.png);
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	height: 60vh;
 	background-attachment: fixed;
 }
 
